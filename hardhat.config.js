@@ -31,7 +31,9 @@ module.exports = {
     },
     // rinkeby
     rinkeby: {
-      url: process.env.RINKEBY_URL || "https://rinkeby.infura.io/v3/",
+      url:
+        process.env.RINKEBY_URL ||
+        "https://rinkeby.infura.io/v3/2ec7362a670b4f4f9201f6ac0cf7ed08",
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
